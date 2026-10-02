@@ -1,0 +1,23 @@
+# Personal facts, real JDs, and generated application materials stay local.
+/01_profile/*.md
+!/01_profile/README.md
+!/01_profile/*.example.md
+/02_companies-and-jobs/jds/*
+!/02_companies-and-jobs/jds/README.md
+/03_job-analysis/analyses/*
+!/03_job-analysis/analyses/README.md
+/04_application-materials/pending-review/*
+!/04_application-materials/pending-review/README.md
+/04_application-materials/final/
+
+# Local tooling and exports.
+/tmp/
+/output/
+/outputs/
+/node_modules/
+*.pdf
+*.docx
+*.xlsx
+.env
+.env.*
+!.env.example

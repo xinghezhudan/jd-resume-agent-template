@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Resume Template | Review Required</title>
+  <style>
+    :root { --ink: #302624; --line: #312725; --accent: #1a5e99; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f2f2f2; color: var(--ink); font: 11pt/1.25 "MiSans", Arial, sans-serif; }
+    .page { width: 210mm; min-height: 297mm; margin: 12px auto; padding: 5mm; background: #fff; box-shadow: 0 8px 30px #0002; }
+    header { margin-bottom: 16pt; text-align: center; }
+    h1 { margin: 0 0 3pt; font-size: 17pt; line-height: 1.1; }
+    .contact { font-size: 10pt; }
+    a { color: var(--accent); text-decoration: none; }
+    section { margin-bottom: 15pt; break-inside: avoid; }
+    h2 { margin: 0 0 6pt; padding-bottom: 4pt; border-bottom: .6pt solid var(--line); font-size: 13pt; line-height: 1.1; text-transform: uppercase; }
+    .entry { margin-bottom: 11pt; break-inside: avoid; }
+    .entry-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 10pt; }
+    .entry-head strong { font-size: 11pt; }
+    time { font-size: 10pt; white-space: nowrap; }
+    .subtitle { margin: 2pt 0 0; }
+    ul { margin: 3pt 0 0; padding-left: 1.2em; }
+    li { margin: 2pt 0; }
+    .skills { margin: 0; }
+    @page { size: A4; margin: 0; }
+    @media print { body { background: #fff; } .page { width: 210mm; min-height: 297mm; margin: 0; box-shadow: none; } a { color: var(--accent); } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>[Full Name]</h1>
+      <div class="contact">[Phone] · [Email] · [Verified portfolio information, if any]</div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[University] | [Degree and Major]</strong><time>[Dates]</time></div>
+        <p class="subtitle">[Relevant, confirmed details only]</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[Organization] | [Actual Role]</strong><time>[Dates]</time></div>
+        <ul>
+          <li>[Action + task or method + verifiable deliverable or result.]</li>
+          <li>[Another relevant contribution supported by the profile.]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[Project Name] | [Project Type]</strong><time>[Dates]</time></div>
+        <ul>
+          <li>[Problem or goal + your own work + actual deliverable.]</li>
+          <li>[Supported outcome; state clearly if the work was a concept.]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p class="skills">[Confirmed and relevant tools, methods, languages, or certifications only]</p>
+    </section>
+  </main>
+</body>
+</html>

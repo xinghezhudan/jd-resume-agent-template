@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中文简历模板｜待用户审核</title>
+  <style>
+    :root { --ink: #20252b; --accent: #214c72; --muted: #59636e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e9edf1; color: var(--ink); font: 10.3pt/1.44 "MiSans", "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+    .page { width: 210mm; min-height: 297mm; margin: 12px auto; padding: 6mm; background: #fff; box-shadow: 0 8px 30px #1c2c3a29; }
+    header { text-align: center; margin-bottom: 13pt; }
+    h1 { margin: 0 0 3pt; font-size: 22pt; line-height: 1.15; }
+    .contact { color: var(--muted); font-size: 9.5pt; }
+    a { color: var(--accent); text-decoration: none; }
+    section { margin-top: 13pt; break-inside: avoid; }
+    h2 { margin: 0 0 6pt; padding-bottom: 3pt; border-bottom: 1pt solid var(--accent); color: var(--accent); font-size: 12pt; line-height: 1.2; }
+    .entry { margin: 0 0 8pt; break-inside: avoid; }
+    .entry-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8pt; align-items: baseline; }
+    .entry-head strong { font-size: 10.5pt; }
+    time { color: var(--muted); font-size: 9pt; white-space: nowrap; }
+    .subtitle { margin: 1pt 0 0; color: var(--muted); }
+    ul { margin: 3pt 0 0; padding-left: 1.25em; }
+    li { margin: 1pt 0; }
+    .skills { margin: 0; }
+    @page { size: A4; margin: 0; }
+    @media print { body { background: #fff; } .page { width: 210mm; min-height: 297mm; margin: 0; box-shadow: none; } a { color: var(--accent); } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>[姓名]</h1>
+      <div class="contact">[电话] · [邮箱] · [已确认的作品集信息，如有]</div>
+    </header>
+
+    <section>
+      <h2>教育经历</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[学校名称]｜[专业与学历]</strong><time>[起止时间]</time></div>
+        <p class="subtitle">[仅填写与岗位相关且已确认的信息]</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>实习经历</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[组织名称]｜[真实职位]</strong><time>[起止时间]</time></div>
+        <ul>
+          <li>[本人实际动作 + 对象或方法 + 可核实交付或结果]</li>
+          <li>[另一条与目标岗位相关的真实贡献]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>项目经历</h2>
+      <div class="entry">
+        <div class="entry-head"><strong>[项目名称]｜[项目类型或角色]</strong><time>[起止时间]</time></div>
+        <ul>
+          <li>[项目问题或目标 + 本人所做工作 + 实际交付]</li>
+          <li>[有依据的成果；未落地项目注明真实状态]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>专业技能</h2>
+      <p class="skills">[只列出已确认且与岗位相关的工具、方法、语言或证书]</p>
+    </section>
+  </main>
+</body>
+</html>
