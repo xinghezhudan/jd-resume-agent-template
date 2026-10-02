@@ -22,7 +22,7 @@ prompts/start-with-agent.md            可复制给 Agent 的首次任务提示�
 
 ## 三步使用
 
-1. 使用 GitHub 的 **Use this template** 创建自己的仓库，或下载/克隆本仓库。阅读 `AGENTS.md`。把 `01_profile/*.example.md` 复制为同名、不带 `.example` 的文件，填写真实资料。个人资料文件默认被 `.gitignore` 排除。
+1. 从 GitHub 下载 ZIP 或克隆本仓库。阅读 `AGENTS.md`。把 `01_profile/*.example.md` 复制为同名、不带 `.example` 的文件，填写真实资料。个人资料文件默认被 `.gitignore` 排除。
 2. 将真实 JD 保存到 `02_companies-and-jobs/jds/`。把 `prompts/start-with-agent.md` 交给 AI Agent，让它读取项目规则，先制作证据对照表，再生成简历初稿。
 3. 在浏览器中打开生成的 HTML，检查事实、布局和打印预览。本人审核通过后，再使用浏览器的“打印 → 另存为 PDF”。
 
@@ -30,6 +30,6 @@ prompts/start-with-agent.md            可复制给 Agent 的首次任务提示�
 
 ## 更新说明
 
-本仓库会随教程更新。使用 **Use this template** 创建的是独立仓库，不会自动收到后续更新；需要手动对照或合并新版内容。
+本仓库会随教程更新。下载或复制后的项目不会自动收到后续更新；需要手动对照或合并新版内容。
 
 代码与模板按 [MIT License](LICENSE) 开放使用。
