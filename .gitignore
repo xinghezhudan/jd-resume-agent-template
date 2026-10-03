@@ -17,6 +17,7 @@
 /node_modules/
 *.pdf
 *.docx
+!/04_application-materials/templates/resume-zh-reference.docx
 *.xlsx
 .env
 .env.*
